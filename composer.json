@@ -1,0 +1,29 @@
+{
+    "name": "eduardoarandah/medialibrary-dropzone-for-laravel-backpack",
+    "description": "Easily attach images to your model and order them by dragging",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eduardo Aranda",
+            "email": "eduardoarandah@gmail.com",
+            "homepage": "https://eduardoarandah.github.io/"
+        }
+    ],
+    "homepage": "https://github.com/digitallyhappy/toggle-field-for-backpack",
+    "keywords": ["Laravel", "Backpack", "Backpack for Laravel", "Addon", "Admin Panel", "MediaLibrary","Dropzone"],
+    "require": {
+        "backpack/crud": "^4.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EduardoArandaH\\MediaLibraryDropzone\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EduardoArandaH\\MediaLibraryDropzone\\MediaLibraryDropzoneServiceProvider"
+            ]
+        }
+    }
+}
