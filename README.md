@@ -147,6 +147,7 @@ protected function setupUpdateOperation()
 	CRUD::addField([
 		'name' => 'pictures',
 		'type' => 'medialibrary-dropzone',
+                'view_namespace' => 'medialibrary-dropzone::fields',
 		'url' => "/mymodel/{$this->crud->getCurrentEntry()->id}/picture"
 	]);
 }
